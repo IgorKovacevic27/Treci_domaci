@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #232323 !important;
+  margin: 0;
+  font-family: "Montserrat", "Avenir";
+}
+
+h1 {
+  background-color: steelblue;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: white;
+  margin: 0;
+}
+
+button {
+  border: none;
+  background: inherit;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: inherit;
+  color: steelblue;
+  height: 100%;
+  letter-spacing: 2px;
+
+  transition: all 350ms;
+  --webkit-transition: all 350ms;
+  --moz-transition: all 350ms;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: steelblue;
+  color: white !important;
+}

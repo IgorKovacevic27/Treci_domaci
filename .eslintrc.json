@@ -1,0 +1,33 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true,
+    "jest/globals": true
+  },
+  "plugins": ["jest"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:jest/recommended"
+  ],
+  "settings": {
+    "react": {
+      "pragma": "React",
+      "version": "16.6.3",
+      "flowVersion": "0.53"
+    }
+  },
+  "rules": {
+    "semi": 2,
+    "no-console": "off",
+    "no-case-declarations": "off"
+  }
+}
